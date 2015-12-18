@@ -2085,7 +2085,7 @@ st=st.replace(&quot;\&quot;aadhaar-status-code\&quot;:\&quot;200\&quot;&quot;,&q
 st=st.replace(&quot;\&quot;aadhaar-status-code\&quot;:\&quot;300\&quot;&quot;,&quot;\&quot;reason\&quot;:\&quot;Biometric_data_not_match\&quot;&quot;);
 st=st.replace(&quot;\&quot;aadhaar-status-code\&quot;:\&quot;k-100\&quot;&quot;,&quot;\&quot;reason\&quot;:\&quot;KYC_Failed\&quot;&quot;);
 st=st.replace(&quot;\&quot;aadhaar-status-code\&quot;:\&quot;k-543\&quot;&quot;,&quot;\&quot;reason\&quot;:\&quot;KYC_Invaild_TimeStamp\&quot;&quot;);
-f = new FileOutputStream(&quot;/home/administrator/Desktop/results.json&quot;, true); 
+f = new FileOutputStream(&quot;target/results.json&quot;, true); 
 p = new PrintStream(f);
 p.print(index+&quot;\n&quot;+st+&quot;\n&quot;);
 p.close();
